@@ -1,0 +1,87 @@
+/* Container */
+.admin-container {
+  background: linear-gradient(to bottom, #df5353, #904e4e);
+  min-height: 100vh;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+.admin-header {
+  background-image: linear-gradient(to top, #a7a6cb 0%, #8989ba 52%, #8989ba 100%);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-logo {
+  max-width: 200px;
+  margin-left: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-link {
+  margin-right: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link:hover {
+  color: #f3fc47e3;
+}
+
+/* Sign Out Button */
+.signout {
+  background-color: #42b0f4;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.signout:hover {
+  background-color: #2c86c8;
+}
+
+/* Departments, Department Head, Employees Sections */
+.dept {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.section {
+  width: 30%;
+  padding: 20px;
+  background-color: rgb(255, 89, 89);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .dept {
+    flex-direction: column;
+  }
+  
+  .section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
